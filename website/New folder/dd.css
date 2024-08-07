@@ -1,0 +1,27 @@
+
+.review-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.review-box {
+    flex: 0 0 300px; /* Adjust width as needed */
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+}
